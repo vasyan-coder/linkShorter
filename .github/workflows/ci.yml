@@ -48,7 +48,7 @@ jobs:
 
     - name: Upload artifacts
       if: matrix.java == '17'
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: link-shorter-jar
         path: target/link-shorter-*.jar
